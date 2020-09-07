@@ -1,0 +1,32 @@
+{
+    "devDependencies": {
+        "@babel/preset-react": "^7.9.4",
+        "@symfony/webpack-encore": "^0.29.0",
+        "core-js": "^3.0.0",
+        "regenerator-runtime": "^0.13.2",
+        "webpack-notifier": "^1.6.0"
+    },
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production --progress"
+    },
+    "dependencies": {
+        "argon2": "^0.26.2",
+        "argon2-pass": "^1.0.2",
+        "aws-sdk": "^2.659.0",
+        "axios": "^0.19.2",
+        "child_process": "^1.0.2",
+        "fs": "0.0.1-security",
+        "hashy": "^0.8.0",
+        "jwt-decode": "^2.2.0",
+        "moment": "^2.24.0",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-router-dom": "^5.1.2",
+        "react-text-truncate": "^0.16.0"
+    }
+}
